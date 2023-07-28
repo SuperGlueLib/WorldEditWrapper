@@ -1,0 +1,4 @@
+rootProject.name = "WorldEditWrapper"
+
+include ":WorldEdit-Java"
+include ":WorldEdit-Kotlin"
