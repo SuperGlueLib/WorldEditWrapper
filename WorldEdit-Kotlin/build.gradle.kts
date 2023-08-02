@@ -2,7 +2,7 @@ plugins {
     id("me.superpenguin.libraries.kotlin-conventions")
 }
 
-group = "me.superpenguin.libraries"
+group = "me.superpenguin.superglue"
 version = "1.0.0"
 
 publishing {
@@ -12,7 +12,7 @@ publishing {
             artifactId = "worldeditwrapper-kotlin"
             version = "1.0.0"
 
-            from(components["kotlin"])
+            from(components["java"])
         }
     }
 }
